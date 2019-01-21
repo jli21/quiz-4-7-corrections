@@ -12,29 +12,11 @@
 ## quiz 5
 2. Logical operators are or(||), and(&&), and not equal to (!). Those are the only logical operators. Relational operators, on the other hand, include all operators that signify a relationship like <, >, and === just to name a few. 
 8. The cases in switch statements should not be surrounded with "". "" denotes that it is a string, and that is the incorrect syntax for switch statements. 
-9. if (score >= 90) {
-    letterGrade = "A";
-} else if (score >= 80) {
-    letterGrade = "B";
-} else if (score >= 70) {
-    letterGrade = "C";
-} else if (score >= 60) {
-    letterGrade = "D";
-} else {
-    letterGrade = "F";
-}
-This is the simplest way to achieve this goal since switch statements cannot accept a greater or less than value, they can only accept an equal value.
-12. for (let i = 0; i < 5; i++) {
-    console.log(i);
-}
-This snippet of code will execute five times, and the numbers 0 through 4 will be logged into the console. It will eventually terminate when i < 5. 
+9. This is the simplest way to achieve this goal since switch statements cannot accept a greater or less than value, they can only accept an equal value. Therefore, the if statement is the best choice and most efficient. 
+12. This snippet of code will execute five times, and the numbers 0 through 4 will be logged into the console. It will eventually terminate when i < 5. 
 ## quiz 4
 2. console.log("age", age) will print the string "age" and then the variable age with a comma in between. If age is initialized at 16, then it will print (age, 16) to the console. 
-5. It is necessary to put the (); behind the function name so the code executes properly and the computer recognizes that it is indeed a function. 
-<body>
-    <button onclick="countClicks();">Click Me</button>
-    <p id="clicks">0</p>
-</body>
+5. It is necessary to put the (); behind the function name so the code executes properly and the computer recognizes that it is indeed a function. My original answer did not have (); behind the function name, therefore, it would not execute properly. 
 7. I believe I am correct.
 9. The only valid data types in Javascript is number, symbol, string, null, boolean, object, and undefined. Those are the only valid data types in Javascript. 
 10. Variables that are initialized with const are unable to be changed. Since the approximation of PI will never change, the correct answer is const PI = 3.14. 
